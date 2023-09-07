@@ -41,7 +41,7 @@ const Project = ()=>{
         }
     ]
     return (
-        <div className={"main md:h-[1000px] bg-gray-50"}>
+        <div className={"main md:h-[1000px] bg-gray-100"} id={"Project"}>
             <h1 className={"text-center md:py-10 md:text-5xl font-bold"}>Projects</h1>
             <div className={"project-container md:mx-32 md:my-4 md:grid md:grid-cols-2"}>
                 {myProjects.map(myProject => (

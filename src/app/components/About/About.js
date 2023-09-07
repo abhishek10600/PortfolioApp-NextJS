@@ -4,7 +4,7 @@ import AbhishekSharmaImage from "public/Images/Abhishek Sharma.jpeg"
 
 const About = () => {
     return (
-        <div className="main md:h-[600px]">
+        <div className="main md:h-[600px]" id={"About"}>
             <h1 className="md:text-center md:py-10 md:text-5xl md:font-bold">About</h1>
             <div className="container md:flex md:w-[1320px] md:mx-32 py-4 px-4 gap-10 md:shadow-xl md:rounded-2xl">
                 <div className={"imageContainer md:w-[900px] md:rounded-full md:overflow-hidden"}>
