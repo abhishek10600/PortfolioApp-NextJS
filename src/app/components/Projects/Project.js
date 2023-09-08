@@ -18,7 +18,7 @@ const Project = ()=>{
         {
             "_id": 3,
             "title": "PotfolioApp-NextJs",
-            "description": "This is my portfolio app. It is the code of the application that you are visiting now",
+            "description": "This is my portfolio app. It is the code of the application that you are visiting now.",
             "link": "https://github.com/abhishek10600/PortfolioApp-NextJS"
         },
         {
@@ -36,7 +36,7 @@ const Project = ()=>{
         {
             "_id": 6,
             "title": "React-Restaurent-App",
-            "description": "I created a front-end of an restaurent app using React js",
+            "description": "I created a front-end of an restaurent app using React js.",
             "link": "https://github.com/abhishek10600/React-Restaurent-App"
         }
     ]
