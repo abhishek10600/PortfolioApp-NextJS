@@ -1,7 +1,7 @@
 import React from "react"
 import ProjectCard from "@/app/components/Project Card/ProjectCard";
 import Link from "next/link";
-const Project = ()=>{
+const Project = () => {
     const myProjects = [
         {
             "_id": 1,
@@ -11,7 +11,7 @@ const Project = ()=>{
         },
         {
             "_id": 2,
-            "title":"NextJs-Blog-App",
+            "title": "NextJs-Blog-App",
             "description": "I developed this full stack blog app. It allows users to share blogs and control their blogs through a dashbaord. It also has google authetication system.",
             "link": "https://github.com/abhishek10600/NextJs-Blog-App"
         },
@@ -42,14 +42,14 @@ const Project = ()=>{
     ]
     return (
         <div className={"main md:h-[1000px] bg-gray-100"} id={"Project"}>
-            <h1 className={"text-center md:py-10 md:text-5xl font-bold"}>Projects</h1>
-            <div className={"project-container md:mx-32 md:my-4 md:grid md:grid-cols-2"}>
+            <h1 className={"md:text-center md:py-10 md:text-5xl md:font-bold text-center py-6 text-xl font-bold"}>Projects</h1>
+            <div className={"project-container md:mx-32 md:my-4 md:grid md:grid-cols-2 mx-4"}>
                 {myProjects.map(myProject => (
-                    <ProjectCard {...myProject}/>
+                    <ProjectCard {...myProject} />
                 ))}
             </div>
-            <div className={"flex justify-center items-center mt-24"}>
-                <Link href={"https://github.com/abhishek10600?tab=repositories"} target={"_blank"} className={"bg-transparent py-4 px-3"}>View More...</Link>
+            <div className={"flex justify-center items-center md:mt-24"}>
+                <Link href={"https://github.com/abhishek10600?tab=repositories"} target={"_blank"} className={"bg-transparent md:py-4 md:px-3 text-sm"}>View More...</Link>
             </div>
         </div>
     )

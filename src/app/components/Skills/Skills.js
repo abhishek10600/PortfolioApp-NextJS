@@ -10,22 +10,22 @@ import JavaLogo from "../../../../public/Images/javaLogo.png"
 import TailwindcssLogo from "../../../../public/Images/tailwindcssLogo.png"
 import SkillCard from "@/app/components/Skill Card/SkillCard";
 import Link from "next/link";
-const Skills = ()=> {
+const Skills = () => {
     return (
         <div className={"main md:h-[1000px]"} id={"Skills"}>
-            <h1 className={"text-center md:py-10 md:text-5xl md:font-bold"}>Skills</h1>
+            <h1 className={"md:text-center md:py-10 md:text-5xl md:font-bold text-center py-6 text-xl font-bold"}>Skills</h1>
             <div className={"skills-container md:grid md:grid-cols-3 md:mx-32"}>
-                <SkillCard imageComponent={NextJsLogo}/>
-                <SkillCard imageComponent={ReactJsLogo}/>
-                <SkillCard imageComponent={ExpressJsLogo}/>
-                <SkillCard imageComponent={NodeJsLogo}/>
-                <SkillCard imageComponent={MongoDbLogo}/>
-                <SkillCard imageComponent={JavascriptLogo}/>
-                <SkillCard imageComponent={PythonLogo}/>
-                <SkillCard imageComponent={JavaLogo}/>
-                <SkillCard imageComponent={TailwindcssLogo}/>
+                <SkillCard imageComponent={NextJsLogo} />
+                <SkillCard imageComponent={ReactJsLogo} />
+                <SkillCard imageComponent={ExpressJsLogo} />
+                <SkillCard imageComponent={NodeJsLogo} />
+                <SkillCard imageComponent={MongoDbLogo} />
+                <SkillCard imageComponent={JavascriptLogo} />
+                <SkillCard imageComponent={PythonLogo} />
+                <SkillCard imageComponent={JavaLogo} />
+                <SkillCard imageComponent={TailwindcssLogo} />
             </div>
-            <div className={"md:flex md:justify-center md:items-center md:mt-[20px]"}>
+            <div className={"flex justify-center items-center md:mt-[20px]"}>
                 <Link href={"https://drive.google.com/file/d/1tYNlvxO64GP0ReKsmb4IECmMnuXDqOcs/view?usp=sharing"} target="_blank" className={"py-4"}>Download Resume</Link>
             </div>
         </div>
